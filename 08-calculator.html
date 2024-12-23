@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+<p>Calculator</p>
+<p>
+<button onclick = "
+calculation += '1';
+alert(calculation);
+">1</button>
+
+<button onclick = "
+calculation += '2';
+alert(calculation);
+">2</button>
+
+<button onclick = "
+calculation += '3';
+alert(calculation);
+">3</button>
+
+<button onclick = "
+calculation += ' + ';
+alert(calculation);
+">+</button>
+</p>
+
+<p>
+    <button onclick = "
+    calculation += '4';
+    alert(calculation);
+    ">4</button>
+
+    <button onclick = "
+    calculation += '5';
+    alert(calculation);
+    ">5</button>
+
+    <button onclick = "
+    calculation += '6';
+    alert(calculation);
+    ">6</button>
+
+    <button onclick = "
+    calculation += ' - ';
+    alert(calculation);
+    ">-</button>
+</p>
+
+<p>
+    <button onclick = "
+    calculation += '7';
+    alert(calculation);
+    ">7</button>
+
+    <button onclick = "
+    calculation += '8';
+    alert(calculation);
+    ">8</button>
+
+    <button onclick = "
+    calculation += '9';
+    alert(calculation);
+    ">9</button>
+
+    <button onclick = "
+    calculation += ' * ';
+    alert(calculation);
+    ">*</button>
+</p>
+
+<p>
+    <button onclick = "
+    calculation += '0';
+    alert(calculation);
+    ">0</button>
+
+    <button onclick = "
+    calculation += '.';
+    alert(calculation);
+    ">.</button>
+
+    <button onclick = "
+    calculation = eval(calculation);
+    alert(calculation);
+    ">=</button>
+
+    <button onclick = "
+    calculation += ' / ';
+    alert(calculation);
+    ">/</button>
+</p>
+
+<button onclick = "
+calculation = '';
+alert(`Cleared To Zero`);
+">Clear</button>
+
+    <script>
+let calculation = '';
+    </script>
+</body>
+</html>
